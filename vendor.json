@@ -1,0 +1,489 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"canonical": "bitbucket.org/ww/goautoneg",
+			"comment": "",
+			"local": "vendor/bitbucket.org/ww/goautoneg",
+			"revision": "75cd24fc2f2c",
+			"revisionTime": "2012-07-07T21:04:53+10:00"
+		},
+		{
+			"canonical": "github.com/beorn7/perks/quantile",
+			"comment": "",
+			"local": "vendor/github.com/beorn7/perks/quantile",
+			"revision": "b965b613227fddccbfffe13eae360ed3fa822f8d",
+			"revisionTime": "2015-02-23T14:51:52+01:00"
+		},
+		{
+			"canonical": "github.com/davecgh/go-spew/spew",
+			"comment": "",
+			"local": "vendor/github.com/davecgh/go-spew/spew",
+			"revision": "2df174808ee097f90d259e432cc04442cf60be21",
+			"revisionTime": "2015-06-17T22:34:22-05:00"
+		},
+		{
+			"canonical": "github.com/docker/docker/pkg/mount",
+			"comment": "",
+			"local": "vendor/github.com/docker/docker/pkg/mount",
+			"revision": "424fa598597bd6d716d50dde076b0f4830b60ff8",
+			"revisionTime": "2015-08-14T13:13:42-07:00"
+		},
+		{
+			"canonical": "github.com/docker/docker/pkg/units",
+			"comment": "",
+			"local": "vendor/github.com/docker/docker/pkg/units",
+			"revision": "424fa598597bd6d716d50dde076b0f4830b60ff8",
+			"revisionTime": "2015-08-14T13:13:42-07:00"
+		},
+		{
+			"canonical": "github.com/docker/libcontainer/cgroups",
+			"comment": "",
+			"local": "vendor/github.com/docker/libcontainer/cgroups",
+			"revision": "83a102cc68a09d890cce3b6c2e5c14c49e6373a0",
+			"revisionTime": "2015-07-01T09:42:09-07:00"
+		},
+		{
+			"canonical": "github.com/docker/libcontainer/cgroups/fs",
+			"comment": "",
+			"local": "vendor/github.com/docker/libcontainer/cgroups/fs",
+			"revision": "83a102cc68a09d890cce3b6c2e5c14c49e6373a0",
+			"revisionTime": "2015-07-01T09:42:09-07:00"
+		},
+		{
+			"canonical": "github.com/docker/libcontainer/configs",
+			"comment": "",
+			"local": "vendor/github.com/docker/libcontainer/configs",
+			"revision": "83a102cc68a09d890cce3b6c2e5c14c49e6373a0",
+			"revisionTime": "2015-07-01T09:42:09-07:00"
+		},
+		{
+			"canonical": "github.com/docker/libcontainer/system",
+			"comment": "",
+			"local": "vendor/github.com/docker/libcontainer/system",
+			"revision": "83a102cc68a09d890cce3b6c2e5c14c49e6373a0",
+			"revisionTime": "2015-07-01T09:42:09-07:00"
+		},
+		{
+			"canonical": "github.com/ghodss/yaml",
+			"comment": "",
+			"local": "vendor/github.com/ghodss/yaml",
+			"revision": "c3eb24aeea63668ebdac08d2e252f20df8b6b1ae",
+			"revisionTime": "2015-03-27T18:25:44-07:00"
+		},
+		{
+			"canonical": "github.com/golang/glog",
+			"comment": "",
+			"local": "vendor/github.com/golang/glog",
+			"revision": "fca8c8854093a154ff1eb580aae10276ad6b1b5f",
+			"revisionTime": "2015-08-01T08:52:21+10:00"
+		},
+		{
+			"canonical": "github.com/golang/protobuf/proto",
+			"comment": "",
+			"local": "vendor/github.com/golang/protobuf/proto",
+			"revision": "73aaaa9eb61d74fbf7e256ca586a3a565b308eea",
+			"revisionTime": "2015-08-10T10:35:00+10:00"
+		},
+		{
+			"canonical": "github.com/google/cadvisor/info/v1",
+			"comment": "",
+			"local": "vendor/github.com/google/cadvisor/info/v1",
+			"revision": "9d94806f1bb8d99d758e08814339403819e59402",
+			"revisionTime": "2015-08-14T11:21:46-07:00"
+		},
+		{
+			"canonical": "github.com/google/gofuzz",
+			"comment": "",
+			"local": "vendor/github.com/google/gofuzz",
+			"revision": "bbcb9da2d746f8bdbd6a936686a0a6067ada0ec5",
+			"revisionTime": "2015-03-04T15:37:14-08:00"
+		},
+		{
+			"canonical": "github.com/inconshreveable/mousetrap",
+			"comment": "",
+			"local": "vendor/github.com/inconshreveable/mousetrap",
+			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+			"revisionTime": "2014-10-17T13:07:13-07:00"
+		},
+		{
+			"canonical": "github.com/juju/ratelimit",
+			"comment": "",
+			"local": "vendor/github.com/juju/ratelimit",
+			"revision": "772f5c38e468398c4511514f4f6aa9a4185bc0a0",
+			"revisionTime": "2015-06-19T08:01:45+01:00"
+		},
+		{
+			"canonical": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"comment": "",
+			"local": "vendor/github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"revision": "fc2b8d3a73c4867e51861bbdd5ae3c1f0869dd6a",
+			"revisionTime": "2015-04-06T19:39:34+02:00"
+		},
+		{
+			"canonical": "github.com/pborman/uuid",
+			"comment": "",
+			"local": "vendor/github.com/pborman/uuid",
+			"revision": "ca53cad383cad2479bbba7f7a1a05797ec1386e4",
+			"revisionTime": "2015-06-03T14:40:16-07:00"
+		},
+		{
+			"canonical": "github.com/prometheus/client_golang/model",
+			"comment": "",
+			"local": "vendor/github.com/prometheus/client_golang/model",
+			"revision": "bbd006bc5e64ea2c807381d50263be5f230b427d",
+			"revisionTime": "2015-08-13T23:05:05+02:00"
+		},
+		{
+			"canonical": "github.com/prometheus/client_golang/prometheus",
+			"comment": "",
+			"local": "vendor/github.com/prometheus/client_golang/prometheus",
+			"revision": "bbd006bc5e64ea2c807381d50263be5f230b427d",
+			"revisionTime": "2015-08-13T23:05:05+02:00"
+		},
+		{
+			"canonical": "github.com/prometheus/client_golang/text",
+			"comment": "",
+			"local": "vendor/github.com/prometheus/client_golang/text",
+			"revision": "bbd006bc5e64ea2c807381d50263be5f230b427d",
+			"revisionTime": "2015-08-13T23:05:05+02:00"
+		},
+		{
+			"canonical": "github.com/prometheus/client_model/go",
+			"comment": "",
+			"local": "vendor/github.com/prometheus/client_model/go",
+			"revision": "fa8ad6fec33561be4280a8f0514318c79d7f6cb6",
+			"revisionTime": "2015-02-12T10:17:44Z"
+		},
+		{
+			"canonical": "github.com/prometheus/procfs",
+			"comment": "",
+			"local": "vendor/github.com/prometheus/procfs",
+			"revision": "c91d8eefde16bd047416409eb56353ea84a186e4",
+			"revisionTime": "2015-06-16T16:46:31+02:00"
+		},
+		{
+			"canonical": "github.com/spf13/cobra",
+			"comment": "",
+			"local": "vendor/github.com/spf13/cobra",
+			"revision": "c55cdf33856a08e4822738728b41783292812889",
+			"revisionTime": "2015-08-09T17:25:49-05:00"
+		},
+		{
+			"canonical": "github.com/spf13/pflag",
+			"comment": "",
+			"local": "vendor/github.com/spf13/pflag",
+			"revision": "4869ec2ae0628354eaac5bf88fccf9a7265ae475",
+			"revisionTime": "2015-08-12T10:19:24-05:00"
+		},
+		{
+			"canonical": "golang.org/x/crypto/ssh",
+			"comment": "",
+			"local": "vendor/golang.org/x/crypto/ssh",
+			"revision": "173ce04bfaf66c7bb0fa9d5c0bfd93e773909dbd",
+			"revisionTime": "2015-08-11T21:21:58-07:00"
+		},
+		{
+			"canonical": "golang.org/x/net/context",
+			"comment": "",
+			"local": "vendor/golang.org/x/net/context",
+			"revision": "b026840ad5cb594d38a2b783be1b6644fe5325fb",
+			"revisionTime": "2015-08-06T17:25:04+09:00"
+		},
+		{
+			"canonical": "gopkg.in/yaml.v2",
+			"comment": "",
+			"local": "vendor/gopkg.in/yaml.v2",
+			"revision": "7ad95dd0798a40da1ccdff6dff35fd177b5edf40",
+			"revisionTime": "2015-06-24T11:29:02+01:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/errors",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/errors",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/latest",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/latest",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/meta",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/meta",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/registered",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/registered",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/resource",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/resource",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/testapi",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/testapi",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/api/v1",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/api/v1",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/auth/user",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/auth/user",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/client",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/client",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/client/cache",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/client/cache",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/client/metrics",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/client/metrics",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/conversion",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/conversion",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/expapi",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/expapi",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/expapi/latest",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/expapi/latest",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/expapi/v1",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/expapi/v1",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/fieldpath",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/fieldpath",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/fields",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/fields",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/kubectl",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/kubectl",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/labels",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/labels",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/probe",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/probe",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/probe/http",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/probe/http",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/runtime",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/runtime",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/types",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/types",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/errors",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/errors",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/exec",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/exec",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/fielderrors",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/fielderrors",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/httpstream",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/httpstream",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/jsonpath",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/jsonpath",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/mount",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/mount",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/rand",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/rand",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/wait",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/wait",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/util/yaml",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/util/yaml",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/version",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/version",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/volume",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/volume",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/watch",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/watch",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/pkg/watch/json",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/pkg/watch/json",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/third_party/forked/reflect",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/third_party/forked/reflect",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "k8s.io/kubernetes/third_party/golang/template",
+			"comment": "",
+			"local": "vendor/k8s.io/kubernetes/third_party/golang/template",
+			"revision": "b29311ba2bd4bbf1efcd3102b3f9f7d214a02b39",
+			"revisionTime": "2015-08-14T09:44:12-07:00"
+		},
+		{
+			"canonical": "speter.net/go/exp/math/dec/inf",
+			"comment": "",
+			"local": "vendor/speter.net/go/exp/math/dec/inf",
+			"revision": "42ca6cd68aa922bc3f32f1e056e61b65945d9ad7",
+			"revisionTime": "2014-04-17T22:40:36+09:00"
+		}
+	]
+}
