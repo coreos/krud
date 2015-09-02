@@ -6,6 +6,8 @@ For example, when you push a new image to Quay.io, you can configure a HTTP POST
 When krud gets the webhook, it does a rolling update of a kubernetes replication controller (almost identical to `kubectl rolling-update`).
 krud can run in a separate kubernetes service along side your other services.
 
+**WARNING**: krud is an early product. It has no authentication, can easily be DDoS'd, and is not widely tested. It is open source so we can improve it and remove this message in the future.
+
 # Usage
 
 Configure the webhook to connect to `/push` at the address it's running, for example: `http://krud.company.com/push`.
