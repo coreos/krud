@@ -24,6 +24,7 @@ func main() {
 	listen := fs.String("listen", ":9500", "")
 	deploymentKey := fs.String("deployment-key", "deployment", "Key to use to differentiate between two different controllers.")
 	controllerName := fs.String("controller-name", "", "Name of the replication controller to update.")
+	namespace := fs.String("namespace", api.NamespaceDefault, "Namespace the replication controller.")
 	k8sEndpoint := fs.String("k8s-endpoint", "http://localhost:8080", "URL of the Kubernetes API server")
 
 	if err := fs.Parse(os.Args[1:]); err != nil {
@@ -44,6 +45,7 @@ func main() {
 		DeploymentKey:  *deploymentKey,
 		ControllerName: *controllerName,
 		Endpoint:       *k8sEndpoint,
+		Namespace:      *namespace,
 	}
 
 	http.HandleFunc("/push", k.push)
@@ -54,6 +56,7 @@ func main() {
 type Krud struct {
 	DeploymentKey  string
 	ControllerName string
+	Namespace      string
 	Endpoint       string
 
 	// Hooks contains all incoming webhooks
@@ -230,8 +233,7 @@ func (k *Krud) update(h *Webhook) error {
 	if err != nil {
 		return err
 	}
-	ns := api.NamespaceDefault
-	rcs := client.ReplicationControllers(ns)
+	rcs := client.ReplicationControllers(k.Namespace)
 	oldRc, err := rcs.Get(k.ControllerName)
 	if err != nil {
 		return err
@@ -269,7 +271,7 @@ func (k *Krud) update(h *Webhook) error {
 	}
 	ruc := kubectl.NewRollingUpdaterClient(client)
 	println("doing rolling update")
-	err = kubectl.NewRollingUpdater(ns, ruc).Update(&ruconf)
+	err = kubectl.NewRollingUpdater(k.Namespace, ruc).Update(&ruconf)
 	println("done")
 	k.Lock()
 	h.UpdateSuccess = err == nil

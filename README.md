@@ -27,6 +27,7 @@ Optional:
 - `KRUD_DEPLOYMENT_KEY`: key to use to differentiate between two different controllers; defaults to `deployment`
 - `KRUD_K8S_ENDPOINT`: kubernetes endpoint; defaults to `http://localhost:8080`
 - `KRUD_LISTEN`: listen address; defaults to `:9500`
+- `KRUD_NAMESPACE`: namespace of the replication controller; defaults to the kubernetes default
 
 These options can also be specified on the command line. See `krud -help` for usage.
 
